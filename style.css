@@ -8,6 +8,7 @@
   margin-top: -16px;
   height: 100px;
   width: 100vw;
+  margin-left: -10px;
 
 
 }
@@ -51,6 +52,7 @@ ul {
   height: 500px;
   box-sizing: border-box;
   padding-bottom:170px;
+  margin-left: -10px;
 }
 
 h2{
@@ -161,6 +163,7 @@ h3 {
   padding-left: 5%;
   padding-right: 160px;
   width: 100%;
+  margin-left: -10px;;
 }
 .quote {
   display: flex;
@@ -168,6 +171,7 @@ h3 {
   width: 70%;
   font-style: italic;
   font-size: 36px;
+  
 }
 .author {
   font-size: 25px;
