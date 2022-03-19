@@ -228,3 +228,17 @@ h4 {
   padding-top: 5px;
   padding-bottom: 5px;
 }
+.copyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto";
+  background-color: #1F2937;
+  width: 100vw;
+  margin-right: -25px;
+  height: 100px;
+  color: white;
+  font-size: 20px;
+  margin-left: -10px;
+  margin-bottom: -25px;
+}
