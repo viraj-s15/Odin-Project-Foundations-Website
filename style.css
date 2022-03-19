@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #1F2937;
+  margin-top: -16px;
+  height: 100px;
+  width: 100vw;
+
+
+}
+h1 {
+  font-size: 24px;
+  font-weight: bold;
+  font-family: "Roboto";
+  color: rgb(255, 255, 255);
+  padding-left: 160px;
+  display: flex;
+  align-items: center;
+  
+}
+a{
+  text-decoration: none;
+  color: #777;
+}
+li {
+  list-style: none;
+}
+ul {
+  display: flex;
+  font-size: 18px;
+  gap: 25px;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto";
+  padding-right: 160px;
+  margin: 0;
+}
+.section2 {
+  font-size: 48px;
+  font-family: "Roboto";
+  padding-left: 160px;
+  display: flex;
+  flex-direction: column;
+  background-color: #1F2937;
+  width: 100vw;
+  justify-content:center;
+  align-items: flex-start;
+  height: 500px;
+  box-sizing: border-box;
+  padding-bottom:170px;
+}
+
+h2{
+  color: white;
+  font-weight: bold;
+  display: flex;
+  height: 100px;
+  width: 500px;
+}
+
+p {
+  font-size: 20px;
+  display: flex;
+  font-family: "Roboto";
+  font-weight: thin;
+  color: #e5e7ebe3;
+  display: flex;
+  box-sizing: border-box;
+  height: 50px;
+  width:500px ;
+}
+button {
+  height: 50px;
+  width: 150px;
+  background-color: #3882F6;
+  border-radius: 5%;
+  color: white;
+  font-family: "Roboto";
+  font-size: 20px;
+  border-radius: 10px;
+  border-color: #3882F6;
+  margin-top: 15px;
+}
+button:hover {
+  background-color: white;
+  color: #3882F6;
+  
+}
+.image-placeholder {
+  height: 300px;
+  background-color: #777;
+  align-self: flex-end;
+  font-size: 15px;
+  margin-right: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  height: 400px;
+  margin-top: -295px;
+  color: white;
+  margin-bottom: -35px;
+  
+}
+h3 {
+  display: flex;
+  font-family: "Roboto";
+  font-size: 36px;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;  
+}
+.section3 {
+  display: flex;
+  background-color: white;
+  color: white;
+  justify-content: space-between;
+  margin-left: 300px;
+  margin-right: 300px;
+
+}
+.box {
+  border: 5px solid #3882F6;
+  height: 150px;
+  width: 150px;
+  border-radius: 10px;
+}
+.image-subtext {
+  display: flex;
+  font-family: "Roboto";
+  font-size: 15px;
+  justify-content: space-between;
+  margin-left: 280px;
+  margin-right: 300px;
+  color: #777;
+}
+.subtext-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  align-self: center;
+  margin-top: 10px;
+  padding-left: 15px;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.quote-placeholder{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #E5E7EB;
+  height: 500px;
+  font-family: "Roboto";
+  font-weight: 300;
+  flex-direction: column;
+  padding-left: 5%;
+  padding-right: 160px;
+  width: 100%;
+}
+.quote {
+  display: flex;
+  box-sizing: border-box;
+  width: 70%;
+  font-style: italic;
+  font-size: 36px;
+}
+.author {
+  font-size: 25px;
+  font-weight: bold;
+  padding-left: 45%;
+  
+}
+.section4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 75%;
+  height: 150px;
+  flex-direction: column;
+  background-color: #3882F6;
+  margin-top: 125px;
+  margin-left: 12.5%;
+  margin-bottom: 125px;
+  border-radius: 10px;
+  padding-top: 35px;
+}
+h4 {
+  font-family: "Roboto";
+  font-size: 24px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items:flex-end;
+  margin-bottom: -35px;
+  margin-right: 650px;
+
+
+}
+.bottom-line {
+  font-family: "Roboto";
+  color: white;
+  width: 50%;
+  font-weight: 300;
+  padding-top: 15px;
+  margin-right: 333px;
+  color: rgb(238, 232, 232);
+
+}
+.sign-up-btn {
+  background-color: #3882F6;
+  color: white;
+  border: 3px solid white;  
+  display: flex;
+  justify-content: center;
+  border-radius: 7px;
+  margin-left: 700px;
+  position: relative;
+  bottom: 75px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
